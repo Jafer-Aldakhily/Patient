@@ -24,12 +24,15 @@ require_once "./head.php";
 
     <div class="container mt-5">
         <div class="row mb-3">
-            <div class="col-md-6">
+            <div class="col-md-4">
+                <h1>View Patient</h1>
+            </div>
+            <div class="col-md-4">
                 <a href="./index.php" class="btn btn-primary">Back to home</a>
             </div>
         </div>
 
-        <div class="card" style="width: 40rem;">
+        <div class="card" style="width: 36rem;">
             <div class="card-header">
                 <h2>Patient Name : <?php echo $patient->Name ?></h2>
             </div>

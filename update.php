@@ -27,12 +27,15 @@ require_once "./head.php";
         <div class="row mb-5">
             <div class="offset-md-4 col-md-4">
                 <h1>
-                    Update Patient's Information
+                    Update Patient
                 </h1>
+            </div>
+            <div class="col-md-4">
+                <a href="./index.php" class="btn btn-primary">Back to home</a>
             </div>
         </div>
         <div class="row">
-            <div class="offset-md-4 col-md-4">
+            <div class="offset-md-4 col-md-6">
                 <form action="#" method="post">
                     <div class="mb-3">
                         <label class="form-label">Patient Name : </label>
